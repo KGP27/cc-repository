@@ -1,0 +1,28 @@
+ul{
+    display: inline-flex;
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+li{
+    padding-left: 18px;
+}
+
+#lista{
+    float: left;
+    padding-top: 13px;
+}
+
+#listb{
+    float: right;
+    margin-right: 18px;
+    padding-top: 13px;
+}
+
+#listc{
+    display: flex;
+    align-content: center;
+}
