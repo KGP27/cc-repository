@@ -1,0 +1,117 @@
+div{
+   bottom: 0px;
+}
+
+ul{
+    color:#696767;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+#lista{
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 1%;
+    padding-top: .5%;
+}
+
+#listb{
+    display: inline-flex;
+    float: right;
+    flex-direction: row-reverse;
+    padding-top: .5%;
+}
+
+.containerb{
+    background-color: #CED2D9;
+    position: fixed;
+    height: 45px;
+    width: 100%;
+}
+
+#listc{
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 1.5%;
+    padding-top: 1%;
+}
+
+#listd{
+    display: inline-flex;
+    float: right;
+    flex-direction: row-reverse;
+    padding-right: 1.5%;
+    padding-top: 1%;
+}
+
+.gstuff{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 9%;
+}
+
+#gsbutton{
+    background-color: #CED2D9;
+    height: 30px;
+    margin: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#iflbutton{
+    background-color: #CED2D9;
+    height: 30px;
+    margin: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input{
+    color: #000000;
+    border-color: #CED2D9;
+    width: 475px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 445px;
+    margin-top: 25px;
+    outline: none;
+    padding-left: 30px;
+}
+
+.randombuttons{
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 39%;
+}
+
+.searchpics{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#find{
+    position: absolute;
+    right: 64%;
+    top: 43.5%;
+    z-index: 1;
+}
+
+#mic{
+    position: absolute;
+    right: 33%;
+    top: 44%;
+    z-index: 1;
+}
